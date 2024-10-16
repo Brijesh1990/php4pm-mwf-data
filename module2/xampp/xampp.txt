@@ -1,0 +1,5 @@
+X=> cross plateform(support all OS)
+A=>Apache(server)
+M=>database mysql
+P=>perl(procedural based language)
+P=>php(php:hypertext properocessor)
