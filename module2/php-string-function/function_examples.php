@@ -79,9 +79,18 @@
 // echo $str."<br>";
 // echo ltrim($str,"Brijesh");
 
-$str="Brijesh kumar pandey";
-echo $str."<br>";
-echo rtrim($str,"pandey");
+// $str="Brijesh kumar pandey";
+// echo $str."<br>";
+// echo rtrim($str,"pandey");
+
+// implode : implode is used to convert any array to string 
+
+// $arr=array("Brijesh","rajesh","kumar");
+// echo implode(",",$arr);
+
+// explode : explode is used to convert any string into array 
+$str="hi my name is Brijesh";
+print_r(explode(" ",$str));
 
 
 ?>
