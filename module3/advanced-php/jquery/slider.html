@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='jquery.js'></script>
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            // $("#slide").cycle("zoom");
+            // $("#slide").cycle("turnLeft");
+            // $("#slide").cycle("turnRight");
+            // $("#slide").cycle("shuffle");
+            $("#slide").cycle("shuffle,zoom,turnLeft,turnRight,curtainX");
+        })
+    </script>
+    <style>
+        body 
+        {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+        #slider 
+        {
+            width: 80%;
+            height: 400px;
+            margin-left: 10%;
+        }
+        #slide img 
+        {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="slider">
+        <div id="slide">
+            <img src="https://wowslider.com/sliders/demo-18/data1/images/hongkong1081704.jpg" />
+            <img src="https://wowslider.com/sliders/demo-18/data1/images/new_york.jpg" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqMuVWLxVWdxAhl5eu5LbbDebK7FU8vfQgwd6sdKGEYUNr1McbFyfLmXDpE-B12Tivh_s&usqp=CAU" />
+        </div>
+    </div>
+</body>
+</html>
