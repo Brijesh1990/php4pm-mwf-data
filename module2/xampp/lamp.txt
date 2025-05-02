@@ -1,0 +1,4 @@
+L=> support only linux/unix
+A=>Apache(server)
+M=>database mysql
+P=>php(php:hypertext properocessor)

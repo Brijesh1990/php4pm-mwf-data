@@ -1,0 +1,4 @@
+W=> windows family
+A=>Apache(server)
+M=>database mysql
+P=>php(php:hypertext properocessor)
